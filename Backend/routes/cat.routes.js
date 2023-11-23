@@ -103,6 +103,7 @@ router.post('/categories',(req,res)=>{
     products.splice(index,1);
     let product1 = products.find(p=>p.id === parseInt(req.params.id));
     res.send(product1);
+    console.log(product1);
   })
 //POST METHOD
   router.post('/categories/:categoryid/products',(req,res)=>{
