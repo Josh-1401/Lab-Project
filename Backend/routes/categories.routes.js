@@ -8,7 +8,7 @@ const pool=mysql.createPool({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'node_project'
+    database: 'web_project'
 })
 
 // GET all categories

@@ -20,8 +20,8 @@ var mysql = require('mysql');
 const cons=mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: '',
-    database: 'node_project'
+    password: 'your_password',
+    database: 'web_project'
 })
 app.get('/',function(req,res){
 cons.getConnection(function(err,connection){
